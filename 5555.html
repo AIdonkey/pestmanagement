@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        var jj=function factorial(num){
+            if(num<=1){
+                return 1;
+            }
+            else{
+                return num*factorial(num-1);
+            }
+        }
+        var anotherFactorial=factorial();
+        jj=null;
+        console.log(anotherFactorial(4));
+    </script>
+</body>
+</html>
